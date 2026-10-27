@@ -1,0 +1,37 @@
+{
+  "project_name": "Synthetic school renovation",
+  "customer": {
+    "name": "Demo City Department",
+    "bin": "000000000000"
+  },
+  "contractors": [
+    {
+      "name": "Demo Build",
+      "bin": "000000000001",
+      "amount": "100 млн тг",
+      "description": "School renovation",
+      "year": "2025",
+      "director": {
+        "fio": "Demo Person A"
+      },
+      "violations": [],
+      "subcontractors": [
+        {
+          "name": "Demo Electric",
+          "bin": "000000000002",
+          "amount": "20 млн тг",
+          "description": "Electrical works",
+          "subcontractors": []
+        }
+      ]
+    },
+    {
+      "name": "Demo Build",
+      "bin": "000000000001",
+      "amount": "30 млн тг",
+      "description": "Separate maintenance contract",
+      "year": "2026",
+      "subcontractors": []
+    }
+  ]
+}

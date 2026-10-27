@@ -1,0 +1,35 @@
+# РЕАЛЬНЫЕ ДАННЫЕ — НИКОГДА не коммитим (справки, БИН, фото людей, результаты)
+examples/
+photos/
+*_scheme.xlsx
+*_spravka.docx
+*_entities.json
+*_data.json
+*_editor.html
+*_graph.svg
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE / локальные настройки
+.idea/
+.claude/settings.local.json
+
+# временное
+*.tmp
+~$*
+
+# Local data, credentials and environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+_archive/
+*.docx
+*.xlsx
+*.xlsm
+*.pdf
+*.parquet
+.pytest_cache/
